@@ -4,6 +4,6 @@ from django.contrib.auth.models import AbstractUser
 
 
 class Usuario(AbstractUser):
-    nome = models.CharField(max_length=100, blank=True, null=True)
+    cpf = models.CharField(max_length=11, unique=True)
     telefone = models.CharField(max_length=11, blank=True, null=True)
     data_nascimento = models.DateField(blank=True, null=True)
