@@ -1,0 +1,66 @@
+[
+{
+  "model": "core.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$lxiXfbgMhxhcpfwrripqOg$BHuMYsvyJqARFGD6QyHhmkK56cGoW2ZK1Gt+MLFzwd0=",
+    "last_login": "2022-10-20T17:41:08Z",
+    "is_superuser": true,
+    "username": "mariana",
+    "first_name": "",
+    "last_name": "",
+    "email": "mariana@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-20T17:33:29Z",
+    "cpf": "846513213",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$kEfgipVpqrhWuBBcWlXSmv$HA2yQYXpSP90Zr3GGl0LtjwJrlw72ZsirDD3SI92YwU=",
+    "last_login": "2022-10-20T19:34:26.600Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-20T19:27:16.637Z",
+    "cpf": "",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "media.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "1fd36eaf-e44a-46fd-be5d-d960c9772734",
+    "public_id": "f0bcd4b7-e15a-4b88-933f-ae7c52742b1c",
+    "file": "images/f0bcd4b7-e15a-4b88-933f-ae7c52742b1c.jpg",
+    "description": "Hobbit",
+    "uploaded_on": "2022-10-20T19:24:24.989Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "053b9e2a-15a7-4dea-825a-64af86b24f83",
+    "public_id": "00979054-3500-4db2-9f40-b35fec9a0108",
+    "file": "images/00979054-3500-4db2-9f40-b35fec9a0108.jpg",
+    "description": "O hobbit",
+    "uploaded_on": "2022-10-20T19:29:21.267Z"
+  }
+}
+]

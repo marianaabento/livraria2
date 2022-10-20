@@ -10,6 +10,7 @@ class LivroSerializer(ModelSerializer):
         model = Livro
         fields = "__all__"
         depth = 1
+        
         capa_attachment_key = SlugRelatedField(
         source="capa",
         queryset=Image.objects.all(),
