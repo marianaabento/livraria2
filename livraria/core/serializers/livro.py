@@ -9,7 +9,6 @@ class LivroSerializer(ModelSerializer):
     class Meta:
         model = Livro
         fields = "__all__"
-        depth = 1
         
         capa_attachment_key = SlugRelatedField(
         source="capa",
@@ -22,3 +21,7 @@ class LivroSerializer(ModelSerializer):
 
 class LivroDetailSerializer(ModelSerializer):
     capa = ImageSerializer(required=False)
+    class Meta:
+        model = Livro
+        fields = "__all__"
+        depth = 1
